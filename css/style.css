@@ -10,8 +10,13 @@ section {
 }
 
 header {
-    background-color: url(../img/pattern.png), var(--color1);
-    background-image: url(../img/pattern.png), linear-gradient(160deg, var(--color1) 0%, var(--color2) 75%);
+    background-color: url(../img/pattern.svg), var(--color1);
+    background-image: url(../img/pattern.svg), linear-gradient(160deg, var(--color1) 0%, var(--color2) 75%);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
 .f_btn {
