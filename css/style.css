@@ -14,10 +14,6 @@ header {
     background-image: url(../img/pattern.svg), linear-gradient(160deg, var(--color1) 0%, var(--color2) 75%);
 }
 
-.img-fluid {
-    aspect-ratio: attr(width) / attr(height);
-}
-
 .f_btn {
     display: block;
     max-width: 300px;
