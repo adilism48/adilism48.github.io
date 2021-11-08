@@ -6,22 +6,23 @@
 header,
 footer,
 section {
-    padding: 160px 0;
+    padding: 100px 0;
 }
 
-header {
+header,
+footer {
     background-color: url(../img/pattern.svg), var(--color1);
     background-image: url(../img/pattern.svg), linear-gradient(160deg, var(--color1) 0%, var(--color2) 75%);
 }
 
 .f_txt {
-    margin: 100px auto;
+    margin: 20px auto;
 }
 
 .f_btn {
     display: block;
     max-width: 300px;
-    margin: 100px auto;
+    margin: 30px auto;
     padding: 8px 30px;
     color: var(--bs-white);
     background-color: var(--color1);
@@ -32,6 +33,27 @@ header {
     background-color: var(--color2);
 }
 
-body {
-    background-color: gray;
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.line {
+    width: 220px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
 }
